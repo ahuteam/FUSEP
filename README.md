@@ -187,7 +187,7 @@ FUSEP/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/FUSEP.git
+git clone https://github.com/ahuteam/FUSEP.git
 cd FUSEP
 ```
 
@@ -250,9 +250,8 @@ The FUSEP dataset is available at:
 
 | Resource | Link |
 |----------|------|
-| 📦 Full Dataset (COCO format) | [Google Drive](https://drive.google.com/YOUR_LINK_HERE) |
-| 📝 Annotation Files only | [Google Drive](https://drive.google.com/YOUR_LINK_HERE) |
-| 🗂️ Domain Adaptation Splits | [Google Drive](https://drive.google.com/YOUR_LINK_HERE) |
+| 📦 Full Dataset (COCO format) | [Google Drive](https://drive.google.com/file/d/1HwY0p5Hw6eiZdgRAUTVy2sDSVqzr2vp8/view?usp=drive_link) |
+| 📝 Annotation Files only | [Google Drive](https://github.com/ahuteam/FUSEP/tree/main/labels) |
 
 ### Dataset Structure
 

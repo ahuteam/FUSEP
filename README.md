@@ -4,7 +4,7 @@
 
 **[KDD 2026 Datasets and Benchmarks Track]**
 
-[![Paper](https://img.shields.io/badge/Paper-KDD%202026-blue)](https://dl.acm.org/doi/XXXXXX)
+[![Paper](https://img.shields.io/badge/Paper-KDD%202026-blue)](https://dl.acm.org/doi/epdf/10.1145/3770855.3817453)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.6%2B-orange)](https://pytorch.org/)
@@ -302,17 +302,17 @@ Trained with **Relation-DETR** (ResNet-50 backbone). Two checkpoints per experim
 
 | Hospital | Checkpoint (best_ap) | Checkpoint (best_ap50) | mAP (paper) |
 |----------|---------------------|----------------------|-------------|
-| Hospital-1 (SZ) | [RelationDETR_SZ_CRL_best_ap.pth](https://drive.google.com/YOUR_LINK) | [RelationDETR_SZ_CRL_best_ap50.pth](https://drive.google.com/YOUR_LINK) | 96.3 |
-| Hospital-2 (SC) | [RelationDETR_SC_CRL_best_ap.pth](https://drive.google.com/YOUR_LINK) | [RelationDETR_SC_CRL_best_ap50.pth](https://drive.google.com/YOUR_LINK) | 93.7 |
-| Hospital-3 (YN) | [RelationDETR_YN_CRL_best_ap.pth](https://drive.google.com/YOUR_LINK) | [RelationDETR_YN_CRL_best_ap50.pth](https://drive.google.com/YOUR_LINK) | 85.6 |
+| Hospital-1 (SZ) | [RelationDETR_SZ_CRL_best_ap.pth](https://drive.google.com/file/d/12XEFN4JKKi5r2j8OhhCONl_u_8InDcLC/view?usp=drivesdk) | [RelationDETR_SZ_CRL_best_ap50.pth](https://drive.google.com/file/d/1yBxF-HQSjt6NEjjD-EiV-C6Zjxx6XsUK/view?usp=drivesdk) | 96.3 |
+| Hospital-2 (SC) | [RelationDETR_SC_CRL_best_ap.pth](https://drive.google.com/file/d/1fGlFghIVdjKBCNltqoYl0nekltv0ZCAX/view?usp=drivesdk) | [RelationDETR_SC_CRL_best_ap50.pth](https://drive.google.com/file/d/1DnRuBObykaibRaveYJCYKw-JzCBYhB75/view?usp=drivesdk) | 93.7 |
+| Hospital-3 (YN) | [RelationDETR_YN_CRL_best_ap.pth](https://drive.google.com/file/d/1Zpm9TJ34d7ODEhFrdE7a6XNvothyBMIY/view?usp=drivesdk) | [RelationDETR_YN_CRL_best_ap50.pth](https://drive.google.com/file/d/1F68ZSe0FQdUC_b0loxH4GHiZ2RS5BBc5/view?usp=drivesdk) | 85.6 |
 
 #### NT View
 
 | Hospital | Checkpoint (best_ap) | Checkpoint (best_ap50) | mAP (paper) |
 |----------|---------------------|----------------------|-------------|
-| Hospital-1 (SZ) | [RelationDETR_SZ_NT_best_ap.pth](https://drive.google.com/YOUR_LINK) | [RelationDETR_SZ_NT_best_ap50.pth](https://drive.google.com/YOUR_LINK) | 96.0 |
-| Hospital-2 (SC) | [RelationDETR_SC_NT_best_ap.pth](https://drive.google.com/YOUR_LINK) | [RelationDETR_SC_NT_best_ap50.pth](https://drive.google.com/YOUR_LINK) | 93.9 |
-| Hospital-3 (YN) | [RelationDETR_YN_NT_best_ap.pth](https://drive.google.com/YOUR_LINK) | [RelationDETR_YN_NT_best_ap50.pth](https://drive.google.com/YOUR_LINK) | 90.6 |
+| Hospital-1 (SZ) | [RelationDETR_SZ_NT_best_ap.pth](https://drive.google.com/file/d/1fDqVvgpD7alKcEorBZF8RcA5SemeKpCq/view?usp=drivesdk) | [RelationDETR_SZ_NT_best_ap50.pth](https://drive.google.com/file/d/1NUVX2p4NQM2myvhrAbvt1-pUe3LC-Crn/view?usp=drivesdk) | 96.0 |
+| Hospital-2 (SC) | [RelationDETR_SC_NT_best_ap.pth](https://drive.google.com/file/d/1nJB2HhwRaaAmz9z-Nk6Ti4h8-IE8P2UV/view?usp=drivesdk) | [RelationDETR_SC_NT_best_ap50.pth](https://drive.google.com/file/d/18gqlUuHa8wpCslDUjBN5vnPeJ42CyZQR/view?usp=drivesdk) | 93.9 |
+| Hospital-3 (YN) | [RelationDETR_YN_NT_best_ap.pth](https://drive.google.com/file/d/1UaA4HiCkuSaQeUEA0lqdTCJeVozfossn/view?usp=drivesdk) | [RelationDETR_YN_NT_best_ap50.pth](https://drive.google.com/file/d/1TsTaokijUjszzhRJ12Pm71eRsFNlRiZh/view?usp=drivesdk) | 90.6 |
 
 > Other methods in Table 3 (Faster-RCNN, DETR, YOLOX, Deformable-DETR, ViTDet, CO-DETR, DINO, DDQ) use publicly available pretrained weights. Please refer to their official repositories for downloads.
 
@@ -345,15 +345,15 @@ Benchmarked with **Unbiased Teacher** on CRL view under 5% and 10% labeled data 
 
 | Hospital | Method | Checkpoint |
 |----------|--------|------------|
-| Hospital-2 (SC) | Unbiased Teacher | [UnbiasedTeacher_SC_CRL_10pct_v1_latest.pth](https://drive.google.com/YOUR_LINK) |
+| Hospital-2 (SC) | Unbiased Teacher | [UnbiasedTeacher_SC_CRL_10pct_v1_latest.pth](https://drive.google.com/file/d/1vF-S9GESU138FdxdfTs2teUzHTHIf6ml/view?usp=drivesdk) |
 | Hospital-1 (SZ) | Unbiased Teacher | [UnbiasedTeacher_SZ_CRL_10pct_latest.pth](https://drive.google.com/YOUR_LINK) |
-| Hospital-3 (YN) | Unbiased Teacher | [UnbiasedTeacher_YN_CRL_10pct_latest.pth](https://drive.google.com/YOUR_LINK) |
+| Hospital-3 (YN) | Unbiased Teacher | [UnbiasedTeacher_YN_CRL_10pct_latest.pth](https://drive.google.com/file/d/1gcF8xvw4tveXMr63BcAQja9iGH5q_W4P/view?usp=drivesdk) |
 
 #### CRL View — 5% Labeled Data
 
 | Hospital | Method | Checkpoint |
 |----------|--------|------------|
-| Hospital-2 (SC) | Unbiased Teacher | [UnbiasedTeacher_SC_CRL_5pct_latest.pth](https://drive.google.com/YOUR_LINK) |
+| Hospital-2 (SC) | Unbiased Teacher | [UnbiasedTeacher_SC_CRL_5pct_latest.pth](https://drive.google.com/file/d/1CLjDTjPkirGBtPTG-FQgDmbJoaSmYPUH/view?usp=drivesdk) |
 
 <details>
 <summary>Training Commands for Semi-Supervised</summary>
@@ -428,23 +428,23 @@ Based on **Cross-Domain Adaptive Teacher**. Only source model parameters accessi
 
 | Source → Target | Checkpoint |
 |----------------|------------|
-| SC → SZ | [AdaptiveTeacher_CRL_SC2SZ_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| SC → YN | [AdaptiveTeacher_CRL_SC2YN_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| SZ → SC | [AdaptiveTeacher_CRL_SZ2SC_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| SZ → YN | [AdaptiveTeacher_CRL_SZ2YN_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| YN → SC | [AdaptiveTeacher_CRL_YN2SC_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| YN → SZ | [AdaptiveTeacher_CRL_YN2SZ_model_final.pth](https://drive.google.com/YOUR_LINK) |
+| SC → SZ | [AdaptiveTeacher_CRL_SC2SZ_model_final.pth](https://drive.google.com/file/d/1qye0jnceRsuFzug-n3sg-9k-2CJB7cml/view?usp=drivesdk) |
+| SC → YN | [AdaptiveTeacher_CRL_SC2YN_model_final.pth](https://drive.google.com/file/d/1BGJhU2vqEySpaHej7sSE1leSHBRr9vPO/view?usp=drivesdk) |
+| SZ → SC | [AdaptiveTeacher_CRL_SZ2SC_model_final.pth](https://drive.google.com/file/d/1iG8g6OGE5T48hoTLh1DthBmzJpNFrPPh/view?usp=drivesdk) |
+| SZ → YN | [AdaptiveTeacher_CRL_SZ2YN_model_final.pth](https://drive.google.com/file/d/1ptK1n2MmQcl3FJfHTuYD2JrFxSSU_q4l/view?usp=drivesdk) |
+| YN → SC | [AdaptiveTeacher_CRL_YN2SC_model_final.pth](https://drive.google.com/file/d/1fMVtUMGHMaYC0s9XiP208RiJ1hZ8jI5Y/view?usp=drivesdk) |
+| YN → SZ | [AdaptiveTeacher_CRL_YN2SZ_model_final.pth](https://drive.google.com/file/d/1BxnoGZu4kDP9OvJI-RElv-mJ2_fcgT7h/view?usp=drivesdk) |
 
 #### NT View
 
 | Source → Target | Checkpoint |
 |----------------|------------|
-| SC → SZ | [AdaptiveTeacher_NT_SC2SZ_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| SC → YN | [AdaptiveTeacher_NT_SC2YN_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| SZ → SC | [AdaptiveTeacher_NT_SZ2SC_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| SZ → YN | [AdaptiveTeacher_NT_SZ2YN_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| YN → SC | [AdaptiveTeacher_NT_YN2SC_model_final.pth](https://drive.google.com/YOUR_LINK) |
-| YN → SZ | [AdaptiveTeacher_NT_YN2SZ_model_final.pth](https://drive.google.com/YOUR_LINK) |
+| SC → SZ | [AdaptiveTeacher_NT_SC2SZ_model_final.pth](https://drive.google.com/file/d/1zLrKxNaUgbsv08nINdtwVcZfHseYyIgt/view?usp=drivesdk) |
+| SC → YN | [AdaptiveTeacher_NT_SC2YN_model_final.pth](https://drive.google.com/file/d/1yrbUk9WP3_Bx-Y7L4L54EEiMFEteStZa/view?usp=drivesdk) |
+| SZ → SC | [AdaptiveTeacher_NT_SZ2SC_model_final.pth](https://drive.google.com/file/d/1mm_r6V8Tn-dnQddEg4iGUb0M7KXfu9vF/view?usp=drivesdk) |
+| SZ → YN | [AdaptiveTeacher_NT_SZ2YN_model_final.pth](https://drive.google.com/file/d/1USSpYjeNSwA6HSGKpZn1Ikh8suf-8_Db/view?usp=drivesdk) |
+| YN → SC | [AdaptiveTeacher_NT_YN2SC_model_final.pth](https://drive.google.com/file/d/1RzPRqG3zxZll4R5Tt-hA1kCFipaIzdV4/view?usp=drivesdk) |
+| YN → SZ | [AdaptiveTeacher_NT_YN2SZ_model_final.pth](https://drive.google.com/file/d/1taoPiMlM76uuDpxexE9n6HlnhkBz1q-z/view?usp=drivesdk) |
 
 <details>
 <summary>Training Commands for SFDA</summary>
